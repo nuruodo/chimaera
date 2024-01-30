@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/chimaerea.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Chimaera website</title>
+    </head>
+    <body>
+      
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/chimaerea.png" alt="" class="nav__logo-img">
+                    Chimæra
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#leaks" class="nav__link">leaks</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#trick" class="nav__link">Scenepacks</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#aud" class="nav__link">Audios</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#tut" class="nav__link">Tutorials</a>
+                        </li>
+
+                        <a href="#" class="button button--ghost">Support</a>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <img src="assets/img/nav-img.png" alt="" class="nav__img">
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+
+            </nav>
+        </header>
+
+      <div class="text-container">
+        Bubbles
+      </div>
+      <div class="gradient-bg">
+        <svg xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <filter id="goo">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
+              <feBlend in="SourceGraphic" in2="goo" />
+            </filter>
+          </defs>
+        </svg>
+        <div class="gradients-container">
+          <div class="g1"></div>
+          <div class="g2"></div>
+          <div class="g3"></div>
+          <div class="g4"></div>
+          <div class="g5"></div>
+          <div class="interactive"></div>
+        </div>
+      </div>
+        <script type="module" src="assets/animated gradient/main.ts"></script>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home container" id="home">
+                <div class="swiper home-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- HOME SLIDER 1 -->
+                        <section class="swiper-slide 1">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/chimaerea.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+
+                                    <div class="home__details-img">
+                                    </div>
+                                </div>
+
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#1 editing community</h3>
+                                    <h1 class="home__title"> Chimæra</h1>
+                                    <p class="home__description">Do you want to learn how to become a better editing on any editing software? Well don't look further because Chimaera will help you become better at editing!
+                                    </p>
+                                    <div class="home__buttons">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- HOME SLIDER 2 -->
+                        <section class="swiper-slide 2">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/discord.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+                                </div>
+
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#1 editing discord server!</h3>
+                                    <h1 class="home__title">.gg/Chimaera</h1>
+                                    <p class="home__description">If you want help to all editing related questions or just need presets and audio's, Chimaera's official discord page is the right place for you!
+
+                                    <div class="home__buttons">
+                                        <a href="https://discord.gg/chimaera" class="button">Join Now!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- HOME SLIDER 3 -->
+                        <section class="swiper-slide 3">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/payhipicon.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+                                </div>
+
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#1 leaking community</h3>
+                                    <h1 class="home__title">For editing packs</h1>
+                                    <p class="home__description">Do you want an editing pack from your most favortite creator, but are the prices way too high for your budget? don't worry! Chimaera offers hundreds of editing packs from your favorite creators for absolutely nothing.
+                                    </p>
+
+                                    <div class="home__buttons">
+
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+          <!--==================== CATEGORY ====================-->
+          <section class="section category">
+              <h2 class="section__title">Chimaera Staff</h2>
+
+              <div class="category__container container grid">
+                  <div class="category__data">
+                      <a href="https://www.tiktok.com/@rayan.eo08?is_from_webapp=1&sender_device=pc">
+                          <img src="assets/img/rxyanpfp.png" alt="" class="category__img">
+                      </a>
+                      <h3 class="category__title">Rayan</h3>
+                      <p class="category__description">Web-Developer</p>
+                  </div>
+
+                  <div class="category__data">
+                      <a href="https://www.tiktok.com/@nurucdo?is_from_webapp=1&sender_device=pc">
+                          <img src="assets/img/nurupfpgoodone.png" alt="" class="category__img">
+                      </a>
+                      <h3 class="category__title">Nuruodo</h3>
+                      <p class="category__description">Owner</p>
+                  </div>
+
+                  <div class="category__data">
+                      <a href="https://www.tiktok.com/@slizel.mp4?is_from_webapp=1&sender_device=pc">
+                          <img src="assets/img/slizelpfp.png" alt="" class="category__img">
+                      </a>
+                      <h3 class="category__title">Slizel</h3>
+                      <p class="category__description">Founder</p>
+                  </div>
+
+                  <div class="category__data">
+                      <a href="https://www.tiktok.com/@y7zki?is_from_webapp=1&sender_device=pc">
+                          <img src="assets/img/yuzukipfp.png" alt="" class="category__img">
+                      </a>
+                      <h3 class="category__title">Yuzuki</h3>
+                      <p class="category__description">Server manager</p>
+                  </div>
+          </section>
+
+
+            <!--==================== ABOUT ====================-->
+          <section class="section about" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Information:</h2>
+                        <p class="about__description"></p>Chimaera is a community founded in early 2021 with one goal: Bringing editors from all over the world together and helping them get the best out of themselves. Chimaera offers the best editors who are always ready to help people. In addition, Chimaera offers many other things, such as Adobe softwares, editing packs from your favorite creators and an active community.
+                    </div>
+                    <img src="assets/img/chimaerea.png" alt="" class="about__img">
+                </div>
+
+
+            <!--==================== NEW ARRIVALS ====================-->
+            <section class="section new" id="new">
+                <h2 class="section__title">New Arrivals</h2>
+
+                <div class="new__container container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/ae_file_icon.png" alt="" class="new__img">
+                                <h3 class="new__title">Dmnnn</h3>
+                                <span class="new__subtitle">editing pack</span>
+
+                                <div class="new__prices">
+                                    <span class="new__price">FREE</span>
+                                    <span class="new__discount">$29.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/ae_file_icon.png" alt="" class="new__img">
+                                <h3 class="new__title">Tricevfx</h3>
+                                <span class="new__subtitle">editing pack</span>
+
+                                <div class="new__prices">
+                                    <span class="new__price">FREE</span>
+                                    <span class="new__discount">$21.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/ae_file_icon.png" alt="" class="new__img">
+                                <h3 class="new__title">karish.ae</h3>
+                                <span class="new__subtitle">ediitng pack</span>
+
+                                <div class="new__prices">
+                                    <span class="new__price">FREE</span>
+                                    <span class="new__discount">$9.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/ae_file_icon.png" alt="" class="new__img">
+                                <h3 class="new__title">notagility_</h3>
+                                <span class="new__subtitle">editing pack</span>
+
+                                <div class="new__prices">
+                                    <span class="new__price">FREE</span>
+                                    <span class="new__discount">$44.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/ae_file_icon.png" alt="" class="new__img">
+                                <h3 class="new__title">aexcheck</h3>
+                                <span class="new__subtitle">editing pack</span>
+
+                                <div class="new__prices">
+                                    <span class="new__price">FREE</span>
+                                    <span class="new__discount">$12.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+
+                          <div class="new__content swiper-slide">
+                            <div class="new__tag">New</div>
+                            <img src="assets/img/ae_file_icon.png" alt="" class="new__img">
+                            <h3 class="new__title">b6lencia</h3>
+                            <span class="new__subtitle">editing pack</span>
+
+                            <div class="new__prices">
+                                <span class="new__price">FREE</span>
+                                <span class="new__discount">$14.99</span>
+                            </div>
+
+                            <button class="button new__button">
+                                <i class='bx bx-cart-alt new__icon'></i>
+                            </button>
+                          </div>
+                          </div>
+                          <div class="swiper-pagination"></div>
+                          </div>
+                          </section>
+
+
+
+
+        <!--==================== FOOTER ====================-->
+            <footer class="footer section">
+                <div class="footer__container container grid">
+                    <div class="footer__content">
+                        <a href="#" class="footer__logo">
+                            <img src="assets/img/chimaerea.png" alt="" class="footer__logo-img">
+                            Chimaera 
+                        </a>
+
+                        <p class="footer__description">Be ready to take your work<br> to the next level. &#8595;</p>
+
+                        <div class="footer__social">
+                            <a href="https://discord.gg/chimaera" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-discord'></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@chlmaera?_t=8j0ms2IIi6i&_r=1" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-tiktok' ></i>
+                            </a>
+                            <a href="https://www.instagram.com/chimaera.leaks?igsh=MmF0dmhkbHFiNHZm" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-instagram' ></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">About</h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Features</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">News</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__content">
+                      <h3 class="footer__title">Our Company</h3>
+
+                      <ul class="footer__links">
+                          <li>
+                              <a href="#" class="footer__link">Blog</a>
+                          </li>
+                          <li>
+                              <a href="#" class="footer__link">About us</a>
+                          </li>
+                          <li>
+                              <a href="#" class="footer__link">Our mission</a>
+                          </li>
+                      </ul>
+                    </div>
+
+                    <div class="footer__copy">&#169; Chimaera. All rights reserved <br> Made by Rayan and Nuruodo</div>
+                    </div>
+                        </footer>
+
+                        <!--=============== SCROLL UP ===============-->
+                        <a href="#" class="scrollup" id="scroll-up">
+                            <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+                        </a>
+
+                        <!--=============== SCROLL REVEAL ===============-->
+                        <script src="assets/js/scrollreveal.min.js"></script>
+
+                        <!--=============== SWIPER JS ===============-->
+                        <script src="assets/js/swiper-bundle.min.js"></script>
+
+                        <!--=============== MAIN JS ===============-->
+                        <script src="assets/js/main.js"></script>
+                    </body>
+
+                    </html>
